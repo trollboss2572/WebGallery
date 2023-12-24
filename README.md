@@ -1,0 +1,1 @@
+The following were all assignments for a web development class. The required parts of each website are listed in the README files in each directory (will show up when you open the directory for the specific iteration)
