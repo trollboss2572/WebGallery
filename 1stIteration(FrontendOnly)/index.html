@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Web Gallery</title>
+        <link href="style/containers.css" rel="stylesheet" type="text/css"/>
+        <link href="style/images.css" rel="stylesheet" type="text/css"/>
+        <link href="style/text.css" rel="stylesheet" type="text/css"/>
+        <link href="style/buttonsAndInput.css" rel="stylesheet" type="text/css"/>
+        <script type="module" src="js/index.mjs"></script>
+      </head>
+    <body id="docBody" class = "background_color">
+        <div class="title_container">
+          <img class="title_image"></img>
+          <h1 class="head_text title_animations" id="title">Web Gallery</h1>
+          <img class="title_image"></img>
+        </div>
+         
+         <div class="gallery_image"></div>
+         
+         <!--Dumb needed HTML since something needs to exist to put my minimized div into this -->
+        <div id="input_pic_general_area">
+         <form class="input_container" id="Picture_Form_Container">
+            <div class="form_title" >Add Your Masterpiece</div>
+            <button class="small_hide_show_text" id="PictureChangeSize">-</button>
+            <input class="input_fields" placeholder="Enter Artist Name" id="artist_name" required></input>
+            <input class="input_fields" placeholder="Enter Artwork Name" id="art_name" required></input>
+            <input class="input_fields" placeholder="Enter URL of picture" id="art_pth_name" required></input>
+            <button type="submit "class="submit_btn btn" id="submit_art_btn">Submit your art!</button>
+         </form>
+        </div>
+        <div class="art_information_container" id="art_info_cont">
+        </div>
+         <div class="image_and_arrow_container" id="img_arr_cont">
+         </div>
+         <!--Dumb needed HTML since something needs to exist to put my minimized div into this. Yup, same here -->
+         <div id="EntireCommentArea"></div>
+    </body>
+    <footer>
+      <a href="credits.html">Credits</a>
+    </footer>
+</html>

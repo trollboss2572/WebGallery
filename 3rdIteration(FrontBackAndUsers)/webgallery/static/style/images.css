@@ -1,0 +1,18 @@
+.title_image {
+    align-self:center;
+    content: url(media/GalleryOutside.jpg);
+    height: 100%;
+    width: 10%;
+}
+
+.gallery_image {
+    width: 50%;
+    margin:auto;
+    content: url(media/galleryPicture.jpg);
+    margin-top: 5px;
+}
+
+.display_image {
+    width: 100%;
+    height: 100%;
+}

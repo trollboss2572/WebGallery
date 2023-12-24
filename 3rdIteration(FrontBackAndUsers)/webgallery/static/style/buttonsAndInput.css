@@ -1,0 +1,122 @@
+/* Thanks Thierry */
+.submit_btn { 
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: #3c3d3f;
+    background: #ffffff;
+    border: 2px black solid;
+    padding: 10px 20px 10px 20px;
+    width:fit-content;   
+}
+
+@keyframes btn_hover {
+    from {
+        background: #ffffff;
+        color:black
+    }
+    to {
+        background: black;
+        color: blue;
+    }
+}
+.submit_btn:hover {
+    background-size: 200% 100%;
+    animation-duration: .5s;
+    animation-name: btn_hover;
+    background: black;
+    color: blue;
+}
+
+.small_hide_show_text {
+    font-size: 20px;
+    top: 0;
+    right: 10;
+    position: absolute;
+    color: blue;
+}
+
+.small_hide_show_text:hover {
+    color: orange;
+    background-color: black;
+}
+
+.left_arrow {
+    margin-right: 0;
+    content: url(media/Left_Arrow.png);
+}
+
+.left_arrow:hover{
+    content: url(media/Left_Arrow_Hover.png)
+}
+
+.left_picture_arrow {
+    width: 20%;
+    position: absolute;
+    left: 0;
+    top: 200;
+}
+
+.comment_arrow {
+    top: 0;
+    margin:auto;
+    width: 10%;
+    height: 10%;
+    justify-self:center;
+}
+
+.deleteButton {
+    top: 0;
+    margin-right: 0px;
+    margin-left: 0px;
+    position:absolute;
+    right: 300;
+    content: url(media/delete-icon.png)
+}
+
+.deleteComment {
+    color:#ffffff;
+    right: 0;
+    width: 10%;
+    height: 40%;
+}
+
+.right_picture_arrow {
+    margin-left: 2px;
+    margin-right: 0px;
+    width: 20%;
+    position: absolute;
+    right: 50;
+    top: 200;
+    margin-left: 0;
+}
+
+.right_arrow {
+    transform: scaleX(-1);
+    content: url(media/Left_Arrow.png);
+}
+
+.to_sign_up {
+    position:absolute;
+    right: 0;
+    margin:0
+}
+
+.right_arrow:hover {
+    transform: scaleX(-1);
+    content: url(media/Left_Arrow_Hover.png);
+}
+
+.input_fields {
+    height: 30px;
+    width: 60%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.deleteButton:hover{
+    content: url(./media/delete-icon-hover.png);
+}

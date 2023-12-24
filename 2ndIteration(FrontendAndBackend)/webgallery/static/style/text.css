@@ -1,0 +1,82 @@
+.head_text {
+    height: 64px;
+    justify-content: center;
+    padding: 2px 4px 2px 4px;
+    width: fit-content;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+@keyframes title_color_flash {
+        0% {color: black;}
+        25% {color:brown;}
+        50% {color:gold;}
+        100% {color: black}
+}
+.title_animations {
+    animation-name: title_color_flash;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.form_title {
+    justify-content: center;
+    top: 0;
+    font-size: 40px;
+    font-weight: bold;
+    margin: auto;
+    padding: 5px 10px 0px 10px;
+    text-align: center;
+    height: 50px;
+    display: flex;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color:black;
+}
+
+.art_title {
+    font-weight: bold;
+    text-align: center;
+    font-size: 75px;
+}
+
+.art_info {
+    font-weight: bold;
+    text-align: center;
+}
+
+.comment_title {
+    top: 0;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 5px 20px 20px 20px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    margin-bottom: 0px;
+    width: 75%;
+}
+
+.comment_single_title {
+    color: white;
+}
+
+.single_comment_content {
+    height: fit-content;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.small_text {
+    padding: 5px 5px 5px 5px;
+    margin-top: 0;
+    color: white;
+    margin-bottom: 20px;
+}
